@@ -23,12 +23,12 @@ header{
 
 }
 header span{
-	font:arial;
+	font:"Felix Titling";
 	font-size:16px;
 	padding-left:0px;
 }
 nav{
-	height:200px;
+	height:201px;
 	background:#E5E5E5;
 }
 nav a{
