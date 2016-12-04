@@ -6,9 +6,7 @@ nav,header,footer,main,aside,section,article{
 	display:block;
     width: 100%;
 }
-a,h1,h2,h3,li,section{
-	margin-left: 32px;s
-}
+
 a{
 	text-decoration:none;
 	color:#000000;
