@@ -29,7 +29,7 @@ nav ul{
 }
 
 #wrapper{
-	max-width: 1000px;
+	width: 1000px;
 	background-color:#3f3f3f;
 	margin: 0px auto;
 
@@ -62,6 +62,7 @@ a:hover{
 	float: left;
 	height: 834px;
 	width: 241px;
+	border-right: 4px solid #3f3f3f;
 }
 #layout_1 aside > ul{
 	list-style-type: none;
@@ -112,6 +113,7 @@ a:hover{
 #layout_1 footer{
 	height: 66px;
 	background-color: #3f3f3f;
+	width: 100%;
 	/*position: fixed;*/
 }
 
@@ -215,11 +217,12 @@ a:hover{
 	position: absolute;
 }
 
-/*#layout_3  nav > ul{
+#layout_3  nav > ul{
 	padding-right: 15px;
 	padding-top: 15px;
 	float: right;
-}*/
+
+}
 
 #layout_3 main{
 	max-width: 100%;
