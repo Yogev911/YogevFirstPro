@@ -15,6 +15,19 @@ body{
 	background-color: #091358;
 }
 
+nav {
+	background: url("../images/layout2line.jpg");
+	width: 100%;
+	height: 49px;
+	position: relative;
+}
+
+nav ul{
+	padding-right: 15px;
+	padding-top: 15px;
+	float: right;
+}
+
 #wrapper{
 	max-width: 1000px;
 	background-color:#3f3f3f;
@@ -44,14 +57,16 @@ a:hover{
 	clear: both;
 }
 /* #####################LAYOUT 1##################### */
-#layout_1 nav{
+#layout_1 aside{
 	background-color:#f9f9f9;
 	float: left;
 	height: 834px;
 	width: 241px;
 }
-#layout_1 nav >ol{
+#layout_1 aside > ul{
 	list-style-type: none;
+	padding-left: 15px;
+	padding-top: 15px;
 }
 
 #layout_1 main{
@@ -101,18 +116,20 @@ a:hover{
 }
 
 /* #####################LAYOUT 2##################### */
-#layout_2 nav{
+/*#layout_2 nav{
 	background: url("../images/layout2line.jpg");
 	width: 100%;
 	height: 52px;
 }
-
+*/
 #layout_2 aside{
 	background-color:#f9f9f9;
 	float: right;
 	height: 834px;
 	width: 125px;
 }
+
+
 
 #layout_2 main{
 	width: 871px;
@@ -171,9 +188,6 @@ a:hover{
 
 /* #####################LAYOUT 3##################### */
 #layout_3 nav{
-	background: url("../images/layout2line.jpg");
-	width: 100%;
-	height: 49px;
 	border-bottom: 4px solid #404040 ;
 }
 
@@ -182,9 +196,11 @@ a:hover{
 	height: 21px;
 	width: 53px;
 	position: relative;
-	left: 138px;
-	top: 10px;
+	left: 127px;
+	top: 13px;
 	margin-left: 9px;
+	position: absolute;
+
 }
 
 #layout_3  nav > section:nth-child(2) {
@@ -192,9 +208,15 @@ a:hover{
 	height: 21px;
 	width: 53px;
 	left: 200px;
-	top: 10px;
-	position: relative;
+	top: 13px;
+	position: absolute;
 }
+
+/*#layout_3  nav > ul{
+	padding-right: 15px;
+	padding-top: 15px;
+	float: right;
+}*/
 
 #layout_3 main{
 	max-width: 100%;
