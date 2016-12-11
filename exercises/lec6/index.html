@@ -1,14 +1,19 @@
 <!DOCTYPE HTML>
 <html>
-<head>
-    <title>JS</title>
-    <script>
-        window.onload = function() {
-            console.log(document.getElementById("link").innerHTML);
-        }
-    </script>
-</head>
-<body>
-<a href="#" id="link">Click here!</a>
-</body>
+    <head>
+        <title>JS</title>
+        <script>
+            window.onload = function() {
+                var obj = document.getElementById("btn").onclick = function () {
+                    var obj2 = document.getElementById("testing2").innerHTML = "hi";
+                    console.log("dd");
+                    }
+                }
+
+        </script>
+    </head>
+    <body>
+        <h1 id="btn">Click on me</h1>
+        <h2 id="testing2"></h2>
+    </body>
 </html>
