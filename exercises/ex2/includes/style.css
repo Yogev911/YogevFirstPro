@@ -15,8 +15,27 @@ body{
 	background-color: #091358;
 }
 
-#wrapper{
+nav {
+	background: url("../images/layout2line.jpg");
+	width: 100%;
+	height: 49px;
+	position: relative;
+}
+
+nav ul{
+	padding-right: 15px;
+	padding-top: 15px;
+	float: right;
+}
+
+#wrapper3{
 	max-width: 1000px;
+	background-color:#3f3f3f;
+	margin: 0px auto;
+
+}
+#wrapper{
+	width: 1000px;
 	background-color:#3f3f3f;
 	margin: 0px auto;
 
@@ -44,14 +63,17 @@ a:hover{
 	clear: both;
 }
 /* #####################LAYOUT 1##################### */
-#layout_1 nav{
+#layout_1 aside{
 	background-color:#f9f9f9;
 	float: left;
 	height: 834px;
 	width: 241px;
+	border-right: 4px solid #3f3f3f;
 }
-#layout_1 nav >ol{
+#layout_1 aside > ul{
 	list-style-type: none;
+	padding-left: 15px;
+	padding-top: 15px;
 }
 
 #layout_1 main{
@@ -97,14 +119,15 @@ a:hover{
 #layout_1 footer{
 	height: 66px;
 	background-color: #3f3f3f;
+	width: 100%;
 	/*position: fixed;*/
 }
 
 /* #####################LAYOUT 2##################### */
-#layout_2 nav{
-	background: url("../images/layout2line.jpg");
-	width: 100%;
-	height: 52px;
+#layout_2 nav > ul{
+	padding-right: 100px;
+	padding-top: 15px;
+	float: right;
 }
 
 #layout_2 aside{
@@ -113,6 +136,8 @@ a:hover{
 	height: 834px;
 	width: 125px;
 }
+
+
 
 #layout_2 main{
 	width: 871px;
@@ -166,14 +191,14 @@ a:hover{
 }
 #layout_2 footer{
 	height: 66px;
+	width: 100%;
 	background-color: #3f3f3f;
+	bottom: 0px;
+	position: fixed;
 }
 
 /* #####################LAYOUT 3##################### */
 #layout_3 nav{
-	background: url("../images/layout2line.jpg");
-	width: 100%;
-	height: 49px;
 	border-bottom: 4px solid #404040 ;
 }
 
@@ -181,7 +206,11 @@ a:hover{
 	background: url("../images/click.jpg") ;
 	height: 21px;
 	width: 53px;
-	display: inline;
+	position: relative;
+	left: 127px;
+	top: 13px;
+	margin-left: 9px;
+	position: absolute;
 
 }
 
@@ -189,16 +218,21 @@ a:hover{
 	background: url("../images/click.jpg");
 	height: 21px;
 	width: 53px;
-	margin-right: 9px;
+	left: 200px;
+	top: 13px;
+	position: absolute;
+}
+
+#layout_3  nav > ul{
+	padding-right: 15px;
+	padding-top: 15px;
+	float: right;
 
 }
 
 #layout_3 main{
 	max-width: 100%;
-	max-height: 781px;
 	background-color:#f9f9f9;
-	float: left;
-	overflow: hidden;
 }
 
 #layout_3  main > section{
@@ -216,7 +250,11 @@ a:hover{
 
 #layout_3 footer{
 	height: 66px;
+	width: 100%;
 	background-color: #3f3f3f;
+	bottom: 0px;
+	position: fixed;
+
 }
 
 /*EOF*/
