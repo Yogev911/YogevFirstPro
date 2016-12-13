@@ -202,19 +202,17 @@ a:hover{
 	border-bottom: 4px solid #404040 ;
 }
 
-#layout_3  nav > section:nth-child(1) {
+#layout_3  nav > button:nth-child(1) {
 	background: url("../images/click.jpg") ;
 	height: 21px;
 	width: 53px;
-	position: relative;
-	left: 127px;
+	left: 136px;
 	top: 13px;
-	margin-left: 9px;
 	position: absolute;
 
 }
 
-#layout_3  nav > section:nth-child(2) {
+#layout_3  nav > button:nth-child(2) {
 	background: url("../images/click.jpg");
 	height: 21px;
 	width: 53px;
