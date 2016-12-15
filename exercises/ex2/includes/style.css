@@ -62,6 +62,7 @@ a:hover{
 .clear {
 	clear: both;
 }
+
 /* #####################LAYOUT 1##################### */
 #layout_1 aside{
 	background-color:#f9f9f9;
@@ -240,7 +241,7 @@ a:hover{
 	left: 137px;
 	width: 179px;
 	height: 181px;
-	background-color: #FFFFFF;
+	background-color: white;
 	float: left;
 	margin-right: 96px;
 	margin-bottom: 104px;
@@ -249,7 +250,7 @@ a:hover{
 #layout_3 footer{
 	height: 66px;
 	width: 100%;
-	background-color: #3f3f3f;
+	background: white;
 	bottom: 0px;
 	position: fixed;
 
