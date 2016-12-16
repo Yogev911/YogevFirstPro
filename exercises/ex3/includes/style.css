@@ -1,7 +1,7 @@
 /*copyright Yogev Heskia Yogev911@gmail.com */
 *{
-	margin:0px;
-	padding:0px;
+	margin:0;
+	padding:0;
 }
 nav,header,footer,main,aside,section,article,body{
 	display:block;
@@ -28,12 +28,6 @@ nav ul{
 	float: right;
 }
 
-#wrapper3{
-	max-width: 1000px;
-	background-color:#3f3f3f;
-	margin: 0px auto;
-
-}
 #wrapper{
 	width: 1000px;
 	background-color:#3f3f3f;
@@ -63,63 +57,10 @@ a:hover{
 	clear: both;
 }
 
-/* #####################LAYOUT 3##################### */
-#layout_3 nav{
-	border-bottom: 4px solid #404040 ;
+#testing1{
+	font-size: large;
 }
-
-#layout_3  nav > section:nth-child(1) {
-	background: url("../images/click.jpg") ;
-	height: 21px;
-	width: 53px;
-	left: 127px;
-	top: 13px;
-	position: absolute;
-
+#testing2{
+	font-size: small;
 }
-
-#layout_3  nav > section:nth-child(2) {
-	background: url("../images/click.jpg");
-	height: 21px;
-	width: 53px;
-	left: 200px;
-	top: 13px;
-	position: absolute;
-}
-
-#layout_3  nav > ul{
-	padding-right: 15px;
-	padding-top: 15px;
-	float: right;
-
-}
-
-#layout_3 main{
-	max-width: 100%;
-	background-color:#f9f9f9;
-}
-
-#layout_3  main > section{
-	position: relative;
-	border: #010741 solid 1px;
-	top: 64px;
-	left: 137px;
-	width: 179px;
-	height: 181px;
-	background-color: #FFFFFF;
-	float: left;
-	margin-right: 96px;
-	margin-bottom: 104px;
-}
-
-
-#layout_3 footer{
-	height: 66px;
-	width: 100%;
-	background-color: #3f3f3f;
-	bottom: 0px;
-	position: fixed;
-
-}
-
 /*EOF*/
