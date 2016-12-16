@@ -241,7 +241,7 @@ a:hover{
 	left: 137px;
 	width: 179px;
 	height: 181px;
-	background-color: white;
+	background-color: #FFFFFF;
 	float: left;
 	margin-right: 96px;
 	margin-bottom: 104px;
@@ -250,7 +250,7 @@ a:hover{
 #layout_3 footer{
 	height: 66px;
 	width: 100%;
-	background: white;
+	background: #3f3f3f;
 	bottom: 0px;
 	position: fixed;
 

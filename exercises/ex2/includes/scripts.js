@@ -3,22 +3,20 @@
     var SquareBuilder = document.getElementsByTagName('main')[0];
 
     /*Number of squares to start */
-    var Squares = 9; //change to 34
+    var Squares = 34;
 
     /*Hover */
     var ShowTxt = function (ShowTxtObj,pChild) {
         if (ShowTxtObj.style.backgroundColor == "white")
-            pChild.style.color = "blue";
+            pChild.style.color = "black";
         else
-            pChild.style.color = "green";
+            pChild.style.color = "white";
         ShowTxtObj.appendChild(pChild);
-        //SquareBuilder.getElementsByTagName('section')[0].innerHTML = "06/09/1990";
     };
 
     /* Clear hover */
     var ClearShowTxt = function (ClearShowTxtObj) {
         ClearShowTxtObj.removeChild(ClearShowTxtObj.childNodes[0]);
-        //SquareBuilder.getElementsByTagName('section')[0].innerHTML = "";
     };
 
     /*As is.. create new section */
@@ -47,10 +45,10 @@
         if (ObjToChange.style.backgroundColor == "white"){
             ObjToChange.style.backgroundColor = "Black";
             if (ObjToChange == SquareBuilder.getElementsByTagName('section')[0])
-                ObjToChange.getElementsByTagName('p')[0].style.color = "green";
+                ObjToChange.getElementsByTagName('p')[0].style.color = "white";
         }else{
             ObjToChange.style.backgroundColor = "white";
-            ObjToChange.getElementsByTagName('p')[0].style.color = "blue";
+            ObjToChange.getElementsByTagName('p')[0].style.color = "black";
         }
     };
 
@@ -68,14 +66,14 @@
     SquareBuilder.appendChild(DivClear);
 
     /*add click*/
-    document.getElementsByTagName('button')[0].onclick = function () { //the add button
+    document.getElementsByTagName('button')[0].onclick = function () {
         var SquareClick = CreateSection(Squares);
         SquareBuilder.insertBefore(SquareClick,SquareBuilder.childNodes[Squares+1]);
         Squares++;
     };
 
     /*remove click*/
-    document.getElementsByTagName('button')[1].onclick = function () { //the remove button
+    document.getElementsByTagName('button')[1].onclick = function () {
         if (Squares > 0){
             SquareBuilder.removeChild(SquareBuilder.childNodes[Squares]);
             Squares--;
