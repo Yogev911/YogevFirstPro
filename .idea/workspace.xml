@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="37cd3685-2c20-4ceb-b14b-6bc4d8d3b2bb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exercises/ex3/includes/style.css" afterPath="$PROJECT_DIR$/exercises/ex3/includes/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exercises/ex3/index.html" afterPath="$PROJECT_DIR$/exercises/ex3/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -48,8 +47,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exercises/ex3/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1348">
-              <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+            <state relative-caret-position="1204">
+              <caret line="28" column="120" lean-forward="false" selection-start-line="28" selection-start-column="120" selection-end-line="28" selection-end-column="120" />
               <folding />
             </state>
           </provider>
@@ -318,7 +317,7 @@
       <workItem from="1481724728359" duration="106000" />
       <workItem from="1481731588872" duration="25520000" />
       <workItem from="1481880199358" duration="38000" />
-      <workItem from="1481880264917" duration="6594000" />
+      <workItem from="1481880264917" duration="7056000" />
     </task>
     <task id="LOCAL-00001" summary="starting ex3">
       <created>1481880755408</created>
@@ -327,11 +326,18 @@
       <option name="project" value="LOCAL" />
       <updated>1481880755408</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="finished ex3">
+      <created>1481887368202</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1481887368202</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80906000" />
+    <option name="totallyTimeSpent" value="81368000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -344,7 +350,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3872" height="2092" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.123958334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -373,7 +379,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="starting ex3" />
-    <option name="LAST_COMMIT_MESSAGE" value="starting ex3" />
+    <MESSAGE value="finished ex3" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished ex3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -732,8 +739,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exercises/ex3/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1348">
-          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+        <state relative-caret-position="1204">
+          <caret line="28" column="120" lean-forward="false" selection-start-line="28" selection-start-column="120" selection-end-line="28" selection-end-column="120" />
           <folding />
         </state>
       </provider>
