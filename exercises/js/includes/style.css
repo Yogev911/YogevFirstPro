@@ -13,26 +13,16 @@ body {
 }
 @media only screen and (max-width: 480px) {
     article{
-        background-color: red;
-        width: 200px;
-        height: 200px;
+        color: red;
     }
 }
 
 @media only screen and (max-width: 769px) and (min-width: 481px) {
     article{
-        background-color: blue;
-        width: 200px;
-        height: 200px;
+        color: red;
     }
 }
-@media only screen and (min-width: 770px) {
-    article{
-        background-color: yellow;
-        width: 200px;
-        height: 200px;
-    }
-}
+
 
 
 /*EOF*/
