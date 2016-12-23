@@ -5,60 +5,67 @@
         <link rel="stylesheet" href="includes/style.css">
     </head>
     <body>
-        <form   action="http://html5-book.co.il/teach/forms/get_form2.php"
-                method="get" autocomplete="on">
-            <p>
-                <label>Enter Your name : <input type="text" name="fullName" placeholder="Enter the name!" value=""></label>
-            </p>
-            <p>
-                <label>Enter Password : <input type="password" name="pass"></label>
-            </p>
-            <p>
-                <label>Enter Mail : <input type="email" name="mail" placeholder="Username@domain.com"></label>
-            </p>
-            <p>
-                <label>Enter URL : <input type="url" name="website"></label>
-            </p>
-            <p>
-                <label>Enter Phone number : <input type="tel" name="phone"></label>
-            </p>
-            <p>
-                <label>How many cups of coffee you drink a day : <input type="number" name="coffee"></label>
-            </p>
-            <p>
-                <label>What is the temperature now : -10<input type="range" name="temper" value="" min="-10" max="50">50</label>
-            </p>
-            <p>
-                <label>Enter your address <textarea name="address" rows="2" cols="30"></textarea></label>
-            </p>
-            <p>
-                What do you like?
-                <label>A <input type="checkbox" name="interests[]" value="A"></label>
-                <label>B <input type="checkbox" name="interests[]" value="B"></label>
-                <label>C <input type="checkbox" name="interests[]" value="C"></label>
-                <label>D <input type="checkbox" name="interests[]" value="D"></label>
-            </p>
-            <p>
-                Whats your gender?
-                <label>Male<input type="radio" name="gender" value="male"></label>
-                <label>Female<input type="radio" name="gender" value="female"></label>
-                <label>Other<input type="radio" name="gender" value="other"></label>
-            </p>
-            <p>
-                <label>
-                    <select name="age">
-                        <option value="20">20</option>
-                        <option value="21">21</option>
-                        <option value="22">22</option>
-                        <option value="23">23</option>
-                        <option value="24">24</option>
-                        <option value="25">25</option>
-                        <option value="26" selected>26</option>
-                    </select>
-                </label>
-            </p>
-            <input type="submit" value="Submit">
-        </form>
+        <div id="wrapper">
+            <form   action="http://html5-book.co.il/teach/forms/get_form2.php"
+                    method="get" autocomplete="on">
+                <p>
+                    Enter Your name :<label><input type="text" name="fullName" placeholder="Enter the name!" value="" required title="just enter the name.." ></label>
+                </p>
+                <p>
+                    Enter Password :<label><input type="password" name="pass" required title="must enter password.." ></label>
+                </p>
+                <p>
+                    Enter Mail :<label><input type="email" name="mail" placeholder="Username@domain.com" value required></label>
+                </p>
+                <p>
+                    Enter URL : <label><input type="url" name="website" value=""></label>
+                </p>
+                <p>
+                    Enter Phone number : <label><input type="tel" name="phone" maxlength="10"></label>
+                </p>
+                <p>
+                    How many cups of coffee you drink a day : <label><input type="number" name="coffee"></label>
+                </p>
+                <p>
+                    What is the temperature now :<label> -10<input type="range" name="temper" value="" min="-10" max="50">50</label>
+                </p>
+                <p>
+                    Enter your address<label> <textarea name="address" rows="1" cols="22"></textarea></label>
+                </p>
+                <p>
+                    What do you like?
+                    <label>
+                        A <input type="checkbox" name="interests[]" value="A">
+                        B <input type="checkbox" name="interests[]" value="B">
+                        C <input type="checkbox" name="interests[]" value="C">
+                        D <input type="checkbox" name="interests[]" value="D">
+                    </label>
+                </p>
+                <p>
+                    Whats your gender?
+                    <label>
+                        Male<input type="radio" name="gender" value="male" checked>
+                        Female<input type="radio" name="gender" value="female">
+                        Other<input type="radio" name="gender" value="other">
+                    </label>
+                </p>
+                <p>
+                    What is your age?
+                    <label>
+                        <select name="age">
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26" selected>26</option>
+                        </select>
+                    </label>
+                </p>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
         <script src="includes/scripts.js"></script>
     </body>
 </html>

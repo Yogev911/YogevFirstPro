@@ -6,9 +6,20 @@
 nav,header,footer,main,aside,section,article,body,label{
 	display:block;
 }
-
-label{
-	font-family: Arial;
-	font-size: large;
+body{
+	background-color: lightgray;
 }
+#wrapper{
+	padding-top: 50px;
+	width: 300px;
+	background-color:darkgray;
+	margin: 0px auto;
+
+}
+p{
+	font-family: Arial;
+	font-size: 12px;
+}
+
+
 /*EOF*/
